@@ -12,11 +12,13 @@
       "--max-line-length",
        "88"
   ],
-  "python.defaultInterpreterPath": "api/.venv/bin/python3",
+  "python.defaultInterpreterPath": ".venv/bin/python3",
   "python.testing.pytestArgs": [
     "tests"
   ],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
   "files.autoSave": "onFocusChange",
+  "mypy.runUsingActiveInterpreter": true,
+  "cornflakes.linter.executablePath": ".venv/bin/flake8",
 }
