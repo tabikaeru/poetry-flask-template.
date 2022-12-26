@@ -2,7 +2,7 @@
 name = "poetry-flask-template"
 version = "0.1.0"
 description = ""
-authors = ["Andres Gonzalez <gandresto@outlook.com>"]
+authors = ["Yuichi Morioka <moriokayuixxx@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
