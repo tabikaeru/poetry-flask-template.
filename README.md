@@ -21,22 +21,26 @@ cd poetry_flask_template
 poetry run flask run   
 ```
 
+The commit message should refer to the following
+```
 # ==== Emojis ====
-# 🐛  :bug: バグ修正
-# 💄  :lipstick: デザイン修正
-# ✨  :sparkles: 機能追加
-# 🎉  :tada: 盛大に祝うべき大きな機能追加
-# ♻️  :recycle: リファクタリング
-# 💩  :poop: 不要な機能・使われなくなった機能の削除
-# 💚  :green_heart: テストやCIの修正・改善
-# 🚀 :rocket: パフォーマンス改善
-# 📦  :package: 依存パッケージなどのアップデート
-# 🔒  :lock: 新機能の公開範囲の制限
-# 👮  :cop: セキュリティ関連の改善
-# 💡  :bulb: ドキュメント修正・改善
-# 🥚  :egg: イースター・エッグの追加
+# 🐛  :bug: Bug Fixes
+# 💄  :lipstick: Design Fixes
+# ✨  :sparkles: Function addition
+# 🎉  :tada: A major addition that should be celebrated in a big way.
+# ♻️  :recycle: Refactoring
+# 💩  :poop: Deletion of unneeded or no longer used functions
+# 💚  :green_heart: Fix and improve testing and CI
+# 👕  :shirt: Fix Lint errors and correct code styles
+# 🚀  :rocket: Performance Improvement
+# 📦  :package: Update dependent packages, etc.
+# 🔒  :lock: Limit the scope of disclosure of new features
+# 👮  :cop: Security-related improvements
+# 💡  :bulb: Documentation revision/improvement
+# 🥚  :egg: Additional Easter Eggs
 
 # ==== Format ====
 # :emoji: Subject
 #
 # Commit body...
+```
